@@ -1,5 +1,5 @@
 {
-    "name": "spatie/laravel-analytics",
+    "name": "isaacongoma/laravel-analytics",
     "description": "A Laravel package to retrieve Google Analytics data.",
     "keywords": [
         "spatie",
@@ -20,18 +20,17 @@
         }
     ],
     "require": {
-        "php": "^8.0",
-        "google/apiclient": "^2.7",
-        "laravel/framework": "^9.0",
-        "nesbot/carbon": "^2.0",
-        "spatie/laravel-package-tools": "^1.9",
-        "symfony/cache": "^6.0"
+        "php": "^7.3|^7.4|^8.0",
+        "google/apiclient": "*",
+        "nesbot/carbon": "*",
+        "spatie/laravel-package-tools": "*",
+        "symfony/cache": "*"
     },
     "require-dev": {
-        "league/flysystem": "^2.0|^3.0",
-        "mockery/mockery": "^1.4",
-        "orchestra/testbench": "^7.0",
-        "phpunit/phpunit": "^9.4"
+        "league/flysystem": "*",
+        "mockery/mockery": "*",
+        "orchestra/testbench": "*",
+        "phpunit/phpunit": "*"
     },
     "autoload": {
         "psr-4": {
